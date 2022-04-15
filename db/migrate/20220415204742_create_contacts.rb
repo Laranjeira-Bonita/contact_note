@@ -5,8 +5,9 @@ class CreateContacts < ActiveRecord::Migration[6.0]
       t.string :email
       t.string :city
       t.string :state
-      t.integer :country_id
-      t.string :telefone
+      t.integer :user_id
+      t.string :country
+      t.string :phone
       t.string :relation_type, null: false
 
       t.timestamps
